@@ -38,3 +38,8 @@ Writing More Complex Test
    -Running Group of Tests
         -@Tag("null") creating a tag in order to tests every test that has the keyword between the qoutations. If put above the class it will run all methods that contain the keyword. If put above the method it will only run that method.
         
+   -Extracting code to make it testable
+       -Refractoring a calculation and making it its own method and put into a seperate class in order to test it seperatly.
+       
+   
+        
