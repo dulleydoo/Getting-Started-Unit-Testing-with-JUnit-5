@@ -6,7 +6,7 @@ WRITING A J-Unit 5 TEST
     -Execute - Code that calls the system to test                                                                                                           
     -Verify -Assertions to verify results
     
-    ![image](https://user-images.githubusercontent.com/107411441/196056751-b4ac44c6-734f-4664-95b4-d8503bf2071b.png)
+   
     
 Writing More Complex Test
 
@@ -33,7 +33,7 @@ Writing More Complex Test
         -The very first AssertEquals failure will end the test method. basically short circuting.
         -assertAll(adding all the asserts in here with () -> behind each assert call) in order to test all the asserts without short circuting when one fails.
         
-        ![image](https://user-images.githubusercontent.com/107411441/196209757-e3aefb48-7ae7-4ddb-8bc4-c90308d8b47c.png)
+![image](https://user-images.githubusercontent.com/107411441/196209757-e3aefb48-7ae7-4ddb-8bc4-c90308d8b47c.png)
 
    -Running Group of Tests
         -@Tag("null") creating a tag in order to tests every test that has the keyword between the qoutations. If put above the class it will run all methods that contain the keyword. If put above the method it will only run that method.
